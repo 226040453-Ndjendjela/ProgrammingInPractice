@@ -25,5 +25,12 @@ int main(){
     printf("Revenue: %.2f \n", Revenue);
     printf("Expense: %.2f \n", Expense);
     printf("Balance: %.2f \n", Balance);
+
+    if
+     (Expense >= Revenue) THEN
+    printf("Loss: %.2f\n");
+    else if (Expense <=Revenue) THEN
+    printf("Profit: %.2f\n");
+   end if
     return 0;
 }
